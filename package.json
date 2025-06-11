@@ -5,7 +5,14 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "postinstall": "npm run build",
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests configured'"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   },
   "keywords": [],
   "author": "",
