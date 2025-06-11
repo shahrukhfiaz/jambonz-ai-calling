@@ -1,7 +1,7 @@
 {
   "name": "jambonz-ai-calling",
   "version": "1.0.0",
-  "description": "AI calling application using Jambonz and GPT-4 Mini",
+  "description": "AI calling application using Jambonz and GPT-4",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -12,12 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "@jambonz/node-client": "^0.3.9",
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "debug": "^4.3.4",
     "pino": "^8.11.0",
-    "pino-http": "^8.3.3",
-    "node-fetch": "^2.6.9"
+    "pino-http": "^8.3.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
